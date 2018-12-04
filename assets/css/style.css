@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(14, 19, 85);
+}
+
+.container {
+padding: 20px 5% 20px 5%;
+background-color:white;
+border-radius: 5px;
+margin-top:20px;
+
+
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+   margin-bottom:10px;
+    
+    
+   
+}
+
+.instructions {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#button-container {
+    margin:10px 0 20px 0;
+    border: 1px solid #F9DD85;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+
+.form {
+    margin-top:20px;
+    border-radius: 5px;
+    padding:15px;
+    background-color: #F9DD85;
+    
+
+}
+
+.movie-button {
+    border:1px solid rgb(148, 164, 255);
+    margin-right: 8px;
+    background-color: #ABBAFA;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    
+}
+
+#disney-movie {
+  margin: 10px 0 10px 0;
+
+}
+
