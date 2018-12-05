@@ -4,7 +4,7 @@ body {
 
 .container {
 padding: 20px 5% 20px 5%;
-background-color:white;
+background-color: white;
 border-radius: 5px;
 margin-top:20px;
 
@@ -14,7 +14,8 @@ margin-top:20px;
 .header {
     text-align: center;
     font-size: 35px;
-   margin-bottom:10px;
+   margin-bottom: 10px;
+   font-family: 'Noto Sans TC', sans-serif;
     
     
    
@@ -24,31 +25,33 @@ margin-top:20px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 #button-container {
-    margin:10px 0 20px 0;
+    margin: 10px 0 20px 0;
     border: 1px solid #F9DD85;
     padding: 10px 10px 10px 10px;
     border-radius: 3px;
 }
 
 .form {
-    margin-top:20px;
+    margin-top: 20px;
     border-radius: 5px;
-    padding:15px;
+    padding: 15px;
     background-color: #F9DD85;
+    font-family: 'Noto Sans TC', sans-serif;
     
 
 }
 
 .movie-button {
-    border:1px solid rgb(148, 164, 255);
+    border: 1px solid rgb(148, 164, 255);
     margin-right: 8px;
     background-color: #ABBAFA;
-    color:rgb(255, 255, 255);
-    font-weight:bold;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
     
 }
 
