@@ -40,7 +40,9 @@ function populateGIFContainer(movie) {
         url: "https://api.giphy.com/v1/gifs/search?q=" + movie +
             "&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&rating=" + cutOffRating + "&limit=" + numberOfGIFs,
         method: "GET"
-    }).then(function (response) {
+    })
+    
+    .then(function (response) {
         response.data.forEach(function (element) {
             newDiv = $("<div>");
             newDiv.addClass("individual-gif-container");
